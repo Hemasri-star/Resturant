@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{    
+margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+/*Button Style*/ 
+
+.button{
+    border: none;
+    /* background: linear-gradient( to right, #e80d70, white); */
+    background: #0067ac;
+    padding: 0.8rem;
+    border-radius: 30px;
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 2vh 0;
+   
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+header h1 span{
+    color: #0067ac;
+    margin: 2vh 0;
+}
+
+header .sub-menu{
+    display: flex;
+}
+
+header .sub-menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .sub-menu img{
+    height: 1rem;
+}
+
+header .sub-menu span{
+    margin-top: 2vh;
+}
+
+header ul{
+display: flex;
+list-style: none;
+justify-content: space-around;
+width: 55%;
+margin-top: 2vh;
+}
+
+/*Section ONE CSS*/
+
+.one .left{
+    padding: 2rem;
+}
+
+.one .left h1{
+    color: #666666;
+    font-size: 2rem;
+}
+
+.one .left h3{
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+.one .left .features{
+    display: flex;
+}
+
+.one .left .feauture img{
+    height: 2rem;
+}
